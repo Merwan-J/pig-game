@@ -101,10 +101,10 @@ function changeTurn() {
 }
 
 function checkForWinner() {
-  if (parseInt(player1Total.innerHTML) >= 20) {
+  if (parseInt(player1Total.innerHTML) >= 100) {
     gameNotOver = false;
     player1Area.classList.add("winner");
-  } else if (parseInt(player2Total.innerHTML) >= 20) {
+  } else if (parseInt(player2Total.innerHTML) >= 100) {
     gameNotOver = false;
     player2Area.classList.add("winner");
   }
